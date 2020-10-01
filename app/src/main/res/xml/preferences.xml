@@ -457,12 +457,6 @@
                 android:title="@string/pref_viewer_slideshow_delay"
                 app:iconSpaceReserved="false" />
         </PreferenceScreen>
-
-        <PreferenceCategory>
-                android:title="@string/pref_check_updates_manual_title"
-                app:iconSpaceReserved="false" />
-                app:iconSpaceReserved="false" />
-        </PreferenceCategory>
     </PreferenceScreen>
 
 </PreferenceScreen>
