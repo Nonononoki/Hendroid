@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="download_complete">下載完畢</string>
+    <string name="download_cancelled">下載已取消</string>
+    <string name="download_skipped">下載已跳過</string>
+    <string name="download_paused">下載暫停</string>
+    <string name="download_error">下載完畢，但過程中出錯</string>
+    <string name="downloading">下載中</string>
+    <string name="already_downloaded">已下載</string>
+    <string name="already_queued">已排列</string>
+    <string name="unhandled_download_error">讀取圖片網址時出現未處理的例外</string>
+    <string name="pref_screen_interface">介面及導覽</string>
+    <string name="pref_cat_library">圖庫</string>
+    <string name="pref_endless_scroll_title">無限滑動</string>
+    <string name="pref_quantity_per_page_title">每頁數量</string>
+    <!-- Slide 01 -->
+    <string name="slide_01_text">Hendroid 是一個管理個人同人誌及H漫的收藏圖庫。</string>
+    <string name="slide_01_header">歡迎使用 Hendroid！</string>
+    <!-- Slide 02 -->
+    <string name="slide_02_header">權限</string>
+    <string name="slide_02_text">我們需要您裝置的檔案存取權限以供儲存檔案。</string>
+    <!-- Slide 04 -->
+    <string name="slide_04_text">Hendroid 需要一個專門用來儲存圖書的資料夾。</string>
+    <string name="slide_04_header">圖庫</string>
+    <!-- Slide 05 -->
+    <string name="slide_05_header">主題</string>
+    <string name="slide_05_text">選擇樣式</string>
+    <string name="slide_05_light">淺色</string>
+    <string name="slide_05_dark">暗色</string>
+    <string name="slide_05_black">黑色</string>
+    <!-- Slide 06 -->
+    <string name="slide_06_header">來源</string>
+    <string name="slide_06_text">選擇下載來源。</string>
+    <string name="slide_06_subtext">您可以稍後至左方的選單中重新選取圖庫來源。</string>
+    <!-- Last slide -->
+    <string name="slide_end_header">一切就緒！</string>
+    <string name="slide_end_text">一切就緒！\n老司機出發囉。</string>
+    <string name="pref_select_folder_title">選擇下載資料夾</string>
+    <string name="pref_select_folder_summary">選擇 Hendroid 該將下載的檔案儲存至哪個資料夾。</string>
+    <string name="pref_folder_naming_content_title">資料夾名稱</string>
+    <string name="api29_migration_step1">Hendroid 資料夾</string>
+    <string name="api29_migration_step1_select">選擇 Hendroid 資料夾</string>
+    <string name="api29_migration_step1_select_external">選擇外部儲存資料夾</string>
+    <string name="api29_migration_step1_external">外部儲存資料夾</string>
+    <string name="api29_migration_step3">掃描圖庫中 (%1$d / %2$d)</string>
+    <string name="menu_delete_single">刪除</string>
+    <string name="menu_delete_multi">刪除項目</string>
+    <string name="menu_open_folder">開啟其資料夾</string>
+    <string name="menu_redownload">重新下載</string>
+    <string name="menu_redownload_scratch">重頭下載</string>
+    <string name="menu_share">分享</string>
+    <string name="pref_cat_theme">主題模式</string>
+    <string name="pref_color_theme_title">顏色主題</string>
+    <string name="pref_color_theme_summary">目前主題：%s</string>
+    <string name="pref_screen_storage">儲存位置</string>
+    <string name="pref_import_running">匯入正在執行中</string>
+    <string name="pref_folder_trunc_title">截斷資料夾名稱</string>
+    <string name="pref_browser_quick_dl_title">快速下載</string>
+    <string name="pref_browser_initial_zoom_title">初始縮放大小</string>
+    <string name="pref_cat_search">進階搜尋</string>
+    <string name="pref_cat_browser">瀏覽器</string>
+    <string name="pref_read_content_title">圖片檢視器</string>
+    <string name="pref_browser_resume_last_title">恢復到上次查看的頁面</string>
+    <string name="pref_browser_resume_last_on">任何網站將會恢復到上次查看的頁面</string>
+    <string name="pref_browser_resume_last_off">任何網站將會開啟至其首頁</string>
+    <string name="pref_endless_scroll_summary_on">滑到天荒地老吧！</string>
+    <string name="pref_cat_advanced">進階</string>
+    <string name="pref_cat_external">外部儲存空間</string>
+    <string name="pref_external_library_title">外存空間設定</string>
+    <string name="pref_memory_alert_title">低空間大小時警告</string>
+    <string name="pref_memory_usage_summary">目前剩下容量：%.2f%%</string>
+    <string name="pref_memory_usage_title">空間用量</string>
+    <string name="pref_queue_wifi_only_title">僅於連上 WiFi 時下載</string>
+    <string name="pref_screen_downloader">下載管理員</string>
+    <string name="pref_queue_autostart_title">自動開始下載排列</string>
+    <string name="on">開啟</string>
+    <string name="off">關閉</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="select_all">選擇全部</string>
+    <string name="select_none">取消全部</string>
+    <string name="title_activity_about">關於</string>
+    <string name="title_activity_app_lock">應用鎖</string>
+    <string name="title_activity_search">進階搜尋</string>
+    <string name="title_activity_downloads">圖庫</string>
+    <string name="title_activity_queue">排列</string>
+    <string name="title_activity_preferences">選項</string>
+    <string name="memory_details">檢視細節</string>
+    <string name="redownload_action">重新下載</string>
+    <string name="import_run">匯入</string>
+    <string name="export_run">匯出</string>
+    <string name="import_other">匯入已停止</string>
+    <string name="import_unexpected">匯入已意外停止</string>
+    <string name="import_canceled">匯入已取消</string>
+    <string name="open_app_settings">開啟應用程式設定</string>
+    <string name="refresh_options_remove_or">或</string>
+    <string name="fix_permissions">修正</string>
+    <string name="open_settings">開啟設定</string>
+    <string name="app_settings">應用程式設定</string>
+    <string name="book_settings">圖書設定</string>
+    <string name="menu_archive">封存</string>
+    <string name="menu_archive_help">將圖書封存至 ZIP 檔</string>
+    <string name="menu_search">搜尋</string>
+    <string name="app_intro">歡迎</string>
+    <string name="pref_viewer_page_turn_swipe">滑動</string>
+    <string name="pref_viewer_page_turn_volume">音量按鈕</string>
+    <string name="pref_viewer_invert_volume">反轉音量按鈕</string>
+    <string name="pref_viewer_zoom">縮放</string>
+    <string name="pref_screen_privacy">隱私設定</string>
+    <string name="pref_screen_viewer">圖片瀏覽器</string>
+    <string name="pref_viewer_controls">控制</string>
+    <string name="pref_viewer_browse_mode">瀏覽模式</string>
+    <string name="pref_viewer_page_turn">翻頁控制</string>
+    <string name="pref_external_library_delete_title">刪除外存圖庫</string>
+    <string name="downloads_empty_library">快阿，快開車阿。</string>
+    <string name="downloads_loading">把我塞滿滿～</string>
+    <string name="masterdata_no_result">無結果 :(</string>
+    <string name="web_home">回到圖庫</string>
+    <string name="web_back">上一頁</string>
+    <string name="web_forward">下一頁</string>
+    <string name="web_refresh_stop">重新整理/停止</string>
+    <string name="web_open_browser">於瀏覽器中開啟</string>
+    <string name="web_download">下載</string>
+    <string name="web_unparsable">抱歉，無法下載本書。</string>
+    <string name="category_any">任意</string>
+    <string name="help_web_exh_account">請使用或註冊一支 ExHentai 帳號</string>
+    <string name="help_web_download">嘿，你開了本書。\n是時候用下面的工具列來把它載下來了！</string>
+    <string name="help_swipe_cancel">向左滑動取消下載</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_all">取消全部</string>
+    <string name="queue_errors_tab">錯誤</string>
+    <string name="queue_queue_tab">進行中</string>
+    <string name="redownload_all">重新下載全部</string>
+    <string name="canceled">已取消</string>
+    <string name="undo">復原</string>
+    <string name="pause">暫停</string>
+    <string name="resume">回復</string>
+    <string name="move_top">置頂</string>
+    <string name="move_up">向上移</string>
+    <string name="move_down">向下移</string>
+    <string name="move_bottom">置底</string>
+    <string name="queue_paused">已暫停下載</string>
+    <string name="queue_preparing">準備下載中</string>
+    <string name="queue_dl">下載 %s 中</string>
+    <string name="queue_empty">為什麼我空空的？</string>
+    <string name="press_back_again">快速返回兩次離開。</string>
+    <string name="redownload_generating_log_file">建立日誌檔案中…</string>
+    <string name="redownload_open_log">開啟錯誤日誌</string>
+    <string name="redownload_share_log">分享錯誤日誌</string>
+    <string name="redownload_dialog_title">再下載一次？</string>
+    <string name="error_creating_folder">資料夾不正確。</string>
+    <string name="errors_empty">下載時並未發生任何錯誤</string>
+    <string name="viewer_ask_delete_book">你確定你要刪除這本書嗎？</string>
+    <string name="viewer_ask_delete_page">你確定你要刪除這頁嗎？</string>
+    <string name="previous_book_help">上一本書</string>
+    <string name="next_book_help">下一本書</string>
+    <string name="gallery_help">書庫</string>
+    <string name="page_delete_help">刪除頁面</string>
+    <string name="viewer_ask_cover">將此頁設為書籍封面？</string>
+    <string name="view_changelog">檢視更新日誌</string>
+    <string name="view_changelog_flagged">檢視更新日誌*</string>
+    <string name="changelog">更新日誌</string>
+    <string name="get_latest">取得最新版本 (%1$s)</string>
+    <string name="update_success">更新成功</string>
+    <string name="viewer_slideshow">幻燈片</string>
+    <string name="viewer_slideshow_help">幻燈片模式</string>
+    <string name="viewer_order_shuffle">隨機頁面</string>
+    <string name="viewer_order_123">重新排列頁面</string>
+    <string name="viewer_order_shuffle_help">開關隨機頁面</string>
+    <string name="viewer_filter_favourite_on">顯示所有頁面</string>
+    <string name="viewer_make_cover">設為封面</string>
+    <string name="viewer_delete_book">刪除圖書</string>
+    <string name="viewer_copy_success">已複製至下載資料夾中</string>
+    <string name="viewer_copy_fail">無法寫入至下載資料夾中</string>
+    <string name="view_source_help">於瀏覽器中開啟來源</string>
+    <string name="sort_size">大小</string>
+    <string name="sort_random">隨機</string>
+    <string name="sort_reads">讀取次數</string>
+    <string name="sort_read_date">讀取日期</string>
+    <string name="sort_dl_date">下載日期</string>
+    <string name="sort_pages">頁數</string>
+    <string name="sort_artist">繪師</string>
+    <string name="sort_title">標題</string>
+    <string name="deleted">已刪除</string>
+    <string name="search_hint">標題、作者、標籤、書籍ID</string>
+    <string name="send_to">與他人分享：</string>
+    <string name="app_lock_pin">輸入 PIN 碼</string>
+    <string name="app_lock_pin_prefs">鎖屏 PIN 碼</string>
+    <string name="app_lock_enable">已開啟鎖屏</string>
+    <string name="app_lock_disabled">已關閉鎖屏</string>
+    <string name="pin_reset">重設 PIN 碼</string>
+    <string name="pin_reset_success">PIN 碼已被重設</string>
+    <string name="pin_current">輸入目前 PIN 碼</string>
+    <string name="pin_new">輸入新的 PIN 碼</string>
+    <string name="pin_new_confirm">再次確認 PIN 碼</string>
+    <string name="about_licenses">顯示許可</string>
+    <string name="web_url_clipboard">已將網址複製至剪貼簿中</string>
+    <string name="category_tag">標籤 (%1$d)</string>
+    <string name="category_character">角色 (%1$d)</string>
+    <string name="category_artist">繪師 (%1$d)</string>
+    <string name="category_series">系列 (%1$d)</string>
+    <string name="category_language">語言 (%1$d)</string>
+    <string name="category_source">來源 (%1$d)</string>
+    <string name="pref_app_preview_title">近期程式中顯示預覽畫面</string>
+    <string name="pref_app_preview_summary_on">已啟用程式預覽畫面</string>
+    <string name="pref_app_preview_summary_off">已關閉程式預覽畫面\n如果你需要截圖的話，再把這個功能開啟</string>
+    <string name="work_series">系列：@series@</string>
+    <string name="work_artist">繪師：@artist@</string>
+    <string name="work_pages_queue">頁面：@pages@@missing@</string>
+    <string name="work_pages_library">%d 頁 / %.1f MB</string>
+    <string name="refresh_title">重新整理圖庫</string>
+    <string name="refresh_options">清理選項</string>
+    <string name="refresh_location_external">外存圖庫</string>
+    <string name="refresh_location_internal">內存圖庫</string>
+    <string name="import_title">匯入資訊</string>
+    <string name="import_mode_add">加入至目前圖庫</string>
+    <string name="import_select_file">選擇匯入檔案</string>
+    <string name="export_title">輸出資訊</string>
+    <string name="export_favs_only">僅輸出我的最愛</string>
+    <string name="pin_explanation">啟動應用鎖後，需要輸入4位數的PIN碼，以防未經授權的使用</string>
+    <string name="pref_ask_delete_all_except_favs">你確定你要刪除 %d 本書嗎？</string>
+    <string name="book_artist">繪師：名稱</string>
+    <string name="downloads_filter_clear">清除</string>
+    <string name="pref_viewer_continuous_title">持續閱讀</string>
+    <string name="kitkat_dialog_title">選擇 Hendroid 資料夾</string>
+    <string name="disabled">關閉</string>
+    <string name="pin_lock_on_restore">於背景重新開啟時\n自動鎖定</string>
+    <string name="pref_browser_augmented_title">增強瀏覽器</string>
+    <string name="pref_browser_augmented_off">使用預設行為</string>
+    <string name="pref_browser_augmented_on">使用廣告移除及快速讀取</string>
+    <string name="pref_refresh_library_title">重新整理圖庫</string>
+    <string name="pref_refresh_library_summary">手動重新整理圖庫內容</string>
+    <string name="pref_delete_all_except_favs">刪除所有我的最愛以外的書</string>
+    <string name="pref_export_library_title">輸出資訊</string>
+    <string name="pref_import_library_title">輸入資訊</string>
+    <string name="pref_dl_hitomi_webp_title">偏好 WebP 格式</string>
+    <string name="pref_dl_hitomi_webp_summary_off">下載其他格式的圖片 (PNG、JPG)</string>
+    <string name="pref_dl_hitomi_webp_summary_on">下載 WebP 格式的圖片 (可使用時)</string>
+    <string name="pref_dl_threads_quantity_title">並行下載數量</string>
+    <string name="pref_viewer_visuals">視覺效果</string>
+    <string name="pref_viewer_keep_screen_on">保持螢幕開啟</string>
+    <string name="pref_viewer_display_pagenum">一律顯示頁碼</string>
+    <string name="pref_viewer_tap_transitions">啟用翻頁動畫</string>
+    <string name="pref_viewer_zoom_transitions">啟用縮放動畫</string>
+    <string name="pref_viewer_separating_bars">在垂直模式下使用分頁條</string>
+    <string name="pref_viewer_rendering">渲染模式</string>
+    <string name="pref_viewer_auto_rotate">自動旋轉圖片</string>
+    <string name="pref_viewer_auto_rotate_summary_off">圖片不自動旋轉</string>
+    <string name="pref_viewer_read_threshold">N頁後將書標記為已讀</string>
+    <string name="menu_fav">開關我的最愛過濾</string>
+    <string name="permissions_lost">檔案權限已丟失</string>
+    <string name="err_no_content">書籍尚不存在</string>
+    <string name="paused_no_wifi">無法下載 - 沒有 WiFi</string>
+    <string name="paused_no_internet">無法下載 - 沒有網路</string>
+    <string name="paused_no_storage">無法下載 - 低儲存空間</string>
+    <string name="refresh_caption">通過重新掃描文件和資料夾，自動刷新圖庫資訊。</string>
+    <string name="delete_title">刪除我的最愛以外的書籍</string>
+    <string name="book_progress">%1$d / %2$d 本書</string>
+    <string name="menu_order">排列書籍</string>
+    <string name="memory_free">剩餘：%.2f GB</string>
+    <string name="memory_total">總共：%.2f GB</string>
+    <string name="memory_title">除存空間用量</string>
+    <string name="enabled">已啟用</string>
+    <string name="pref_cat_downloads_folder">Hendroid 圖庫</string>
+    <string-array name="pref_dl_threads_quantity_entries">
+        <item>自動 (預設)</item>
+        <item>2 (適用於慢網路)</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10 (適用於快網路或高階手機)</item>
+    </string-array>
+    <string-array name="pref_folder_naming_content_entries">
+        <item>ID</item>
+        <item>標題 - ID</item>
+        <item>作者 - 標題 - ID</item>
+        <item>標題 - 作者 - ID</item>
+    </string-array>
+    <string-array name="pref_folder_trunc_content_entries">
+        <item>無</item>
+        <item>60 字元</item>
+        <item>80 字元</item>
+        <item>100 字元</item>
+        <item>120 字元</item>
+    </string-array>
+    <string-array name="pref_color_theme_entries">
+        <item>淺色</item>
+        <item>深色</item>
+        <item>黑色</item>
+    </string-array>
+    <string-array name="pref_viewer_browse_mode_entries">
+        <item>左到右</item>
+        <item>右到左</item>
+        <item>上到下</item>
+    </string-array>
+    <string-array name="pref_attribute_list_order_entries">
+        <item>依字母排序</item>
+        <item>依數量排序 (最常使用優先)</item>
+    </string-array>
+    <string-array name="pref_viewer_separating_bars_entries">
+        <item>關閉 (預設)</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="pref_viewer_read_threshold_entries">
+        <item>1 頁 (預設)</item>
+        <item>2 頁</item>
+        <item>5 頁</item>
+        <item>整本</item>
+    </string-array>
+    <string-array name="pref_viewer_slideshow_delay_entries">
+        <item>2s (預設)</item>
+        <item>4s</item>
+        <item>8s</item>
+        <item>16s</item>
+    </string-array>
+    <string-array name="pref_viewer_display_mode_entries">
+        <item>縮放至螢幕大小 (預設)</item>
+        <item>填滿至螢幕大小 (成比例)</item>
+        <item>填滿至螢幕大小 (延伸)</item>
+    </string-array>
+    <string-array name="pref_viewer_rendering_entries">
+        <item>銳化成像 (預設)</item>
+        <item>平滑成像</item>
+    </string-array>
+    <string-array name="splash_quotes" tools:ignore="InconsistentArrays">
+        <item>這一切都是藝術</item>
+        <item>老樣子嗎？</item>
+        <item>單手練習用</item>
+        <item>5 分鐘的手部運動</item>
+        <item>你右手的好碰友</item>
+        <item>本本開，褲褲開</item>
+        <item>老司機的休息時間</item>
+        <item>小夫，我要進去了～</item>
+        <item>手部練習的一天又到了</item>
+        <item>瞄準、發射</item>
+        <item>散彈攻擊</item>
+        <item>第三隻手的練習時間</item>
+        <item>BEHIND YOU</item>
+    </string-array>
+    <string name="book_series">系列：名稱</string>
+    <string name="drag_help">拖拉物件</string>
+    <string name="book_fav_help">加入/移除至我的最愛</string>
+    <string name="search_select_a_filter">選擇過濾條件</string>
+    <string name="maintenance">維護中</string>
+    <string name="viewer_direction_ltr">左至右</string>
+    <string name="viewer_direction_rtl">右至左</string>
+    <string name="viewer_direction_ttb">上至下</string>
+    <string name="book_pages_queue">頁數：1234；估計 125 MB</string>
+    <string name="book_pages_library">1234 頁 / 1125 MB</string>
+    <string name="book_tags">tag1, tag2, tag3, 等等…</string>
+    <string name="work_untitled">[未知]</string>
+    <string name="starting_import">匯入中…</string>
+    <string name="importing_library">匯入書庫中</string>
+    <string name="importing_please_wait">匯入中，請稍後…</string>
+    <string name="updating_please_wait">更新中，請稍後…</string>
+</resources>
