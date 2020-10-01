@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="pref_generic_summary">%s</string>
+    <string name="pref_generic_summary" translatable="false">%s</string>
 
     <!-- Interface -->
     <string name="pref_screen_interface">Interface &amp; Navigation</string>
@@ -17,7 +17,7 @@
     <string name="pref_cat_search">Advanced search</string>
     <string name="pref_attributes_list_order_title">Sort order of displayed metadata</string>
     <string name="pref_attributes_list_order_default" translatable="false">1</string>
-    <string name="pref_attributes_list_order_summary">%s</string>
+    <string name="pref_attributes_list_order_summary" translatable="false">%s</string>
 
     <string name="pref_cat_browser">Browser</string>
 
@@ -110,10 +110,10 @@
     <string name="pref_dl_retries_on">Failed downloads will auto-retry</string>
     <string name="pref_dl_retries_off">Failed downloads will stay in error state</string>
     <string name="pref_dl_retries_number_title">Number of retries before aborting</string>
-    <string name="pref_dl_retries_number_summary">%s</string>
+    <string name="pref_dl_retries_number_summary" translatable="false">%s</string>
     <string name="pref_dl_retries_number_default" translatable="false">3</string>
     <string name="pref_dl_retries_mem_limit_title">Mem usage threshold before aborting</string>
-    <string name="pref_dl_retries_mem_limit_summary">%s</string>
+    <string name="pref_dl_retries_mem_limit_summary" translatable="false">%s</string>
     <string name="pref_dl_retries_mem_limit_default" translatable="false">100</string>
     <string name="pref_dl_hitomi">Hitomi.la</string>
     <string name="pref_dl_hitomi_webp_title">Prefer downloading WEBP</string>
