@@ -286,7 +286,7 @@
             app:iconSpaceReserved="false">
             <Preference
                 android:key="pref_app_lock"
-                android:title="App Lock"
+                android:title="@string/title_activity_app_lock"
                 app:iconSpaceReserved="false" />
             <CheckBoxPreference
                 android:defaultValue="@string/pref_app_preview_default"
