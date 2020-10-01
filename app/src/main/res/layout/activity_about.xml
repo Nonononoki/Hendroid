@@ -38,9 +38,8 @@
                 android:src="@drawable/ic_hentoid"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="ContentDescription" />
-
-                android:layout_marginStart="5dp"
+                tools:ignore="ContentDescription"
+                android:layout_margin="5dp" />
             <TextView
                 android:id="@+id/tv_version_name"
                 android:layout_width="0dp"
