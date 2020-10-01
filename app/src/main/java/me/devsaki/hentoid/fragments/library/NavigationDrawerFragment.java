@@ -87,8 +87,8 @@ public final class NavigationDrawerFragment extends Fragment {
         List<Site> activeSites = Preferences.getActiveSites();
         for (Site s : activeSites) drawerItems.add(new DrawerItem(s));
 
-        drawerItems.add(new DrawerItem("QUEUE", R.drawable.ic_action_download, QueueActivity.class));
-        drawerItems.add(new DrawerItem("ABOUT", R.drawable.ic_info, AboutActivity.class));
+        drawerItems.add(new DrawerItem(getResources().getString(R.string.title_activity_queue), R.drawable.ic_action_download, QueueActivity.class));
+        drawerItems.add(new DrawerItem(getResources().getString(R.string.title_activity_about), R.drawable.ic_info, AboutActivity.class));
 
         drawerAdapter.clear();
         drawerAdapter.add(0, drawerItems);
