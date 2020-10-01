@@ -87,7 +87,7 @@
     <string name="help_swipe_cancel">You can cancel downloads by swiping them to the left</string>
 
     <!-- TextViews -->
-    <string name="work_untitled" translatable="false">[No data]</string>
+    <string name="work_untitled">[No data]</string>
     <string name="work_series">Series: @series@</string>
     <string name="work_artist">Artist: @artist@</string>
     <string name="work_pages_queue">Pages: @pages@@missing@</string>
