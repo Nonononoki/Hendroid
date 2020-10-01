@@ -79,8 +79,11 @@
     <string name="err_stats_title">Error stats</string>
     <string name="err_stats_help">Show detailed stats about current download errors</string>
     <string name="err_no_content">Book does not exist yet</string>
-    <string name="confirm_cancel_all">You are about to cancel the whole queue. Continue ?</string>
-    <string name="confirm_redownload_all">You are about to redownload %d items. Continue ?</string>
+    <string name="confirm_cancel_all">You are about to cancel the whole queue. Continue?</string>
+    <plurals name="confirm_redownload_all">
+        <item quantity="one">You are about to re-download %d item. Continue?</item>
+        <item quantity="other">You are about to re-download %d items. Continue?</item>
+    </plurals>
     <string name="paused_no_internet">Cannot download - No internet</string>
     <string name="paused_no_wifi">Cannot download - No WiFi</string>
     <string name="paused_no_storage">Cannot download - Low on storage</string>
@@ -91,7 +94,10 @@
     <string name="work_series">Series: @series@</string>
     <string name="work_artist">Artist: @artist@</string>
     <string name="work_pages_queue">Pages: @pages@@missing@</string>
-    <string name="work_pages_library">%d pages / "%.1f MB</string>
+    <plurals name="work_pages_library">
+        <item quantity="one">%d page / "%.1f MB</item>
+        <item quantity="other">%d pages / "%.1f MB</item>
+    </plurals>
 
     <!-- Refresh library -->
     <string name="refresh_title">Refresh library</string>
@@ -108,7 +114,10 @@
 
     <!-- Delete all except favs -->
     <string name="delete_title">Delete all except favourites</string>
-    <string name="book_progress">%1$d / %2$d books</string>
+    <plurals name="book_progress">
+        <item quantity="one">%1$d / %2$d book</item>
+        <item quantity="other">%1$d / %2$d books</item>
+    </plurals>
 
     <!-- Import metadata -->
     <string name="import_title">Import metadata</string>

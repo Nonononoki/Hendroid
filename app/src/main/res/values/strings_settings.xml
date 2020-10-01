@@ -80,11 +80,14 @@
     <string name="pref_refresh_library_summary">Manually refresh library contents</string>
     <string name="pref_delete_all_except_favs">Delete all books except favourites</string>
     <string name="pref_delete_all_except_favs_summary">Purge the library; keep favourite books only\nNB : Does not apply to the external library</string>
-    <string name="pref_ask_delete_all_except_favs">Are you sure you wish to delete %d books ?</string>
+    <plurals name="pref_ask_delete_all_except_favs">
+        <item quantity="one">Are you sure you wish to delete %d book?</item>
+        <item quantity="other">Are you sure you wish to delete %d books?</item>
+    </plurals>
     <string name="pref_export_library_title">Export metadata</string>
-    <string name="pref_export_library_summary">Export Hentoid books to a JSON file</string>
+    <string name="pref_export_library_summary">Export Hendroid books to a JSON file</string>
     <string name="pref_import_library_title">Import metadata</string>
-    <string name="pref_import_library_summary">Restore exported Hentoid books from a JSON file</string>
+    <string name="pref_import_library_summary">Restore exported Hendroid books from a JSON file</string>
 
     <!-- Downloader -->
     <string name="pref_screen_downloader">Downloader</string>
