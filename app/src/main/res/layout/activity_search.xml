@@ -138,7 +138,6 @@
         android:layout_height="48dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/bg_fab_extended"
-        android:drawableStart="@drawable/ic_search"
         android:drawablePadding="12dp"
         android:gravity="center"
         android:paddingStart="12dp"
@@ -148,5 +147,6 @@
         tools:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:drawableStartCompat="@drawable/ic_search" />
 </androidx.constraintlayout.widget.ConstraintLayout>
