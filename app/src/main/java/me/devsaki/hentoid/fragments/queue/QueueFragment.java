@@ -488,11 +488,11 @@ public class QueueFragment extends Fragment implements ItemTouchCallback, Simple
                 // Update information bar
                 StringBuilder message = new StringBuilder();
                 String processedPagesFmt = Helper.formatIntAsStr(pagesOKDisplay, String.valueOf(totalPagesDisplay).length());
-                message.append(processedPagesFmt).append("/").append(totalPagesDisplay).append(" processed");
+                message.append(String.format(Locale.US,"%s/%d %s", processedPagesFmt, totalPagesDisplay, getString(R.string.queue_processed)));
                 if (pagesKO > 0)
-                    message.append(" (").append(pagesKO).append(" errors)");
+                    message.append(String.format(Locale.US," (%d %s)", pagesKO, getString(R.string.queue_error)));
                 if (numberRetries > 0)
-                    message.append(" [ retry").append(numberRetries).append("/").append(Preferences.getDlRetriesNumber()).append("]");
+                    message.append(String.format(Locale.US, " [%s %d/%d]", getString(R.string.queue_retry), numberRetries, Preferences.getDlRetriesNumber()));
                 int avgSpeedKbps = (int) downloadSpeedCalulator.getAvgSpeedKbps();
                 if (avgSpeedKbps > 0)
                     message.append(String.format(Locale.US, " @ %d KBps", avgSpeedKbps));

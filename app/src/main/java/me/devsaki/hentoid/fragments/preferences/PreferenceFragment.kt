@@ -184,7 +184,7 @@ class PreferenceFragment : PreferenceFragmentCompat(),
                     .setIcon(R.drawable.ic_warning)
                     .setCancelable(false)
                     .setTitle(R.string.app_name)
-                    .setMessage(resources.getQuantityString(R.plurals.pref_ask_delete_all_except_favs, list.size))
+                    .setMessage(resources.getQuantityString(R.plurals.pref_ask_delete_all_except_favs, list.size, list.size))
                     .setPositiveButton(R.string.yes
                     ) { dialog1: DialogInterface, _: Int ->
                         dialog1.dismiss()
