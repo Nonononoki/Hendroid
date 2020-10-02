@@ -25,7 +25,7 @@ android {
         applicationId "org.nonononoki.hendroid"
         minSdkVersion 21
         //noinspection ExpiringTargetSdkVersion
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 155
         versionName '1.12.6.1'
 
