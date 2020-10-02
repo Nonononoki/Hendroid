@@ -428,7 +428,7 @@ public class ContentItem extends AbstractItem<ContentItem.ContentViewHolder> imp
                 } else
                     template = template.replace("@missing@", "");
             } else { // Library
-                template = context.getResources().getString(R.string.work_pages_library, content.getNbDownloadedPages(), content.getSize() * 1.0 / (1024 * 1024));
+                template = context.getResources().getQuantityString(R.plurals.work_pages_library, (int) content.getNbDownloadedPages(), content.getNbDownloadedPages(), content.getSize() * 1.0 / (1024 * 1024));
             }
 
             tvPages.setText(template);

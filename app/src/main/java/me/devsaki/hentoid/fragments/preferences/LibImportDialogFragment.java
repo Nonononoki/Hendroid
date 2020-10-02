@@ -373,7 +373,7 @@ public class LibImportDialogFragment extends DialogFragment {
 
     private void updateProgress() {
         currentProgress++;
-        progressTxt.setText(getResources().getString(R.string.book_progress, currentProgress, totalBooks));
+        progressTxt.setText(getResources().getQuantityString(R.plurals.book_progress, currentProgress, totalBooks));
         progressBar.setProgress(currentProgress);
         progressTxt.setVisibility(View.VISIBLE);
         progressBar.setVisibility(View.VISIBLE);

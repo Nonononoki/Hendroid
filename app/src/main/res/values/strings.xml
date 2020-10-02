@@ -57,8 +57,8 @@
     <string name="cancel">Cancel</string>
     <string name="cancel_all">Cancel all</string>
     <plurals name="ask_cancel_multiple">
-        <item quantity="one">Are you sure you wish to cancel the selected item ?</item>
-        <item quantity="other">Are you sure you wish to cancel the selected items ?</item>
+        <item quantity="one">Are you sure you wish to cancel the selected item?</item>
+        <item quantity="other">Are you sure you wish to cancel the selected items?</item>
     </plurals>
     <string name="invert_queue">Invert queue</string>
     <string name="redownload_all">Redownload all</string>
@@ -188,8 +188,8 @@
 
     <!-- Library fragment -->
     <plurals name="ask_delete_multiple">
-        <item quantity="one">Are you sure you wish to delete the selected item ?</item>
-        <item quantity="other">Are you sure you wish to delete the selected items ?</item>
+        <item quantity="one">Are you sure you wish to delete the selected item?</item>
+        <item quantity="other">Are you sure you wish to delete the selected items?</item>
     </plurals>
     <string name="press_back_again">Press back twice (quickly) to exit.</string>
     <string name="queue_empty">Why am I empty?</string>
@@ -213,8 +213,8 @@
     </plurals>
     <string name="restart_needed">"Changes will be applied after Hendroid is restarted"</string>
     <plurals name="redownload_confirm">
-        <item quantity="one">Redownload selected book from scratch ?</item>
-        <item quantity="other">Redownload selected books from scratch ?</item>
+        <item quantity="one">Redownload selected book from scratch?</item>
+        <item quantity="other">Redownload selected books from scratch?</item>
     </plurals>
     <plurals name="redownload_secured_content">
         <item quantity="one">One of the selected books has secured content and cannot be redownloaded\nThis book will be ignored.</item>
@@ -296,6 +296,10 @@
         <item quantity="one">%s Result found</item>
         <item quantity="other">%s Results found</item>
     </plurals>
+    <plurals name="number_of_book">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
     <string name="search_select_a_filter">Select a filter</string>
 
     <!-- DB migration & Maintenance -->
@@ -341,4 +345,6 @@
 
     <!-- Misc -->
     <string name="select_file_manager">Select your file manager</string>
+    <string name="notification_book_downloads">Book Download Progress</string>
+    <string name="notification_library_imports">Library Imports Progress</string>
 </resources>

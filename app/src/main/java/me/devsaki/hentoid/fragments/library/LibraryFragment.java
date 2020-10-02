@@ -1158,9 +1158,9 @@ public class LibraryFragment extends Fragment implements ErrorsDialogFragment.Pa
     private void updateTitle(long totalSelectedCount, long totalCount) {
         String title;
         if (totalSelectedCount == totalCount)
-            title = totalCount + " items";
+            title = getResources().getQuantityString(R.plurals.number_of_book, (int) totalCount, totalCount);
         else {
-            title = getResources().getQuantityString(R.plurals.number_of_book_search_results, (int) totalSelectedCount, (int) totalSelectedCount, totalCount);
+            title = getResources().getQuantityString(R.plurals.number_of_book_search_results, (int) totalSelectedCount, totalSelectedCount, totalCount);
         }
         toolbar.setTitle(title);
     }

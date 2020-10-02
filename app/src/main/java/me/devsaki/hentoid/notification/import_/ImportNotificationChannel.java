@@ -9,6 +9,8 @@ import androidx.annotation.NonNull;
 
 import java.util.Objects;
 
+import me.devsaki.hentoid.R;
+
 public class ImportNotificationChannel {
 
     private ImportNotificationChannel() {
@@ -20,7 +22,7 @@ public class ImportNotificationChannel {
 
     public static void init(@NonNull Context context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            String name = "Library imports";
+            String name = context.getResources().getString(R.string.notification_library_imports);
             int importance = NotificationManager.IMPORTANCE_DEFAULT;
             NotificationChannel channel = new NotificationChannel(ID, name, importance);
             channel.setSound(null, null);
