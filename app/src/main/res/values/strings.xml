@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">Hendroid</string>
-    <string name="app_id" translatable="false">org.nonononoki.hendroid</string>
     <string name="app_intro">Welcome</string>
     <string name="yes">Yes</string> <!-- because Android default "OK" value for "yes" key is nonsense -->
     <string name="no">No</string>   <!-- because Android default "Cancel" value for "no" key is nonsense -->
@@ -46,7 +45,6 @@
     <string name="menu_archive_help">Archive the book in a ZIP file</string>
     <string name="search_hint">Title, author, tag or book ID</string>
     <string name="send_to">Share with:</string>
-    <string name="open_settings">Open settings</string>
     <string name="app_settings">App settings</string>
     <string name="book_settings">Book settings</string>
     <string name="permissions_lost">File permissions have been lost</string>
@@ -66,11 +64,7 @@
     <string name="redownload_all">Redownload all</string>
     <string name="canceled">Canceled</string>
     <string name="undo">Undo</string>
-    <string name="pause">Pause</string>
-    <string name="resume">Resume</string>
     <string name="move_top">Move to top</string>
-    <string name="move_up">Move up</string>
-    <string name="move_down">Move down</string>
     <string name="move_bottom">Move to bottom</string>
     <string name="queue_empty2" translatable="false" />
     <string name="queue_paused">Queue paused</string>
@@ -109,7 +103,6 @@
     <string name="refresh_options_remove">Remove folders where…</string>
     <string name="refresh_options_remove_1">JSON file is absent (recommended)</string>
     <string name="refresh_options_remove_2">No image has been downloaded</string>
-    <string name="refresh_options_remove_3">JSON file is unreadable (not recommended)</string>
     <string name="refresh_options_remove_or">or</string>
 
     <!-- Delete all except favs -->
@@ -155,7 +148,6 @@
     <string name="export_run">RUN EXPORT</string>
 
     <!-- Import Activity -->
-    <string name="open_app_settings">Open App Settings</string>
     <string name="permissioncomplaint_snackbar">You must grant permissions before you can continue</string>
     <string name="permissioncomplaint_snackbar_manual">You must manually grant permissions before you can continue</string>
     <string name="import_canceled">Import canceled</string>
@@ -169,11 +161,9 @@
     <string name="starting_import">Starting import…</string>
     <string name="importing_library">Importing Library</string>
     <string name="importing_please_wait">Importing, please wait…</string>
-    <string name="updating_please_wait">Updating, please wait…</string>
     <string name="enabled">ENABLED</string>
     <string name="disabled">DISABLED</string>
-    <string name="kitkat_dialog_title">Choose Hendroid folder</string>
-    
+
     <!-- Memory usage -->
     <string name="memory_title">Memory usage</string>
     <string name="memory_total">Total : %.2f GB</string>
@@ -209,7 +199,6 @@
     <string name="masterdata_no_result">No result found :(</string>
     <string name="search_entry_not_found">That\'s not in here, go download it.</string>
     <string name="packaging_content">Packaging files.\nPlease wait…</string>
-    <string name="sd_access_fatal_error">Hendroid has detected an SD Card that is reporting errors.\nPlease perform a file check or replace the SD Card.</string>
     <string name="downloads_filter_clear">CLEAR</string>
     <string name="search_bookid_label">Search \'%s\' in…</string>
     <string name="book_title">"This is a rather long title, just because we need it to be."</string>
@@ -222,7 +211,6 @@
         <item quantity="one">%d/%d result</item>
         <item quantity="other">%d/%d results</item>
     </plurals>
-    <string name="reset">Permissions have been reset.\nResetting app.</string>
     <string name="restart_needed">"Changes will be applied after Hendroid is restarted"</string>
     <plurals name="redownload_confirm">
         <item quantity="one">Redownload selected book from scratch ?</item>
@@ -231,10 +219,6 @@
     <plurals name="redownload_secured_content">
         <item quantity="one">One of the selected books has secured content and cannot be redownloaded\nThis book will be ignored.</item>
         <item quantity="other">Some of the selected books have secured content and cannot be redownloaded\nThey will be ignored.</item>
-    </plurals>
-    <plurals name="redownload_external_content">
-        <item quantity="one">One of the selected books is stored in the external library and cannot be redownloaded\nThis book will be ignored.</item>
-        <item quantity="other">Some of the selected books are stored in the external library and cannot be redownloaded\nThey will be ignored.</item>
     </plurals>
     <string name="deleted">Deleted</string>
     <string name="help_search">Search anything : title, author, tag\nand launch code too !</string>
@@ -269,12 +253,10 @@
 
     <!-- App Lock -->
     <string name="app_lock_pin">Enter PIN</string>
-    <string name="app_lock_pin_prefs">App Lock PIN</string>
     <string name="app_lock_enable">App Lock Enabled</string>
     <string name="app_lock_disabled">App Lock Disabled</string>
     <string name="pin_reset">Reset PIN</string>
     <string name="pin_reset_success">Pin has been reset</string>
-    <string name="pin_ok" translatable="false">PIN OK!</string>
     <string name="pin_current">Enter Current PIN</string>
     <string name="pin_new">Enter New PIN</string>
     <string name="pin_new_confirm">Confirm New PIN</string>
@@ -299,9 +281,7 @@
     <string name="web_open_browser">Open in browser</string>
     <string name="web_download">Download</string>
     <string name="web_unparsable">This content cannot be downloaded. Sorry~</string>
-    <string name="web_url_clipboard">URL copied to clipboard</string>
     <string name="help_web_download">You\'ve reached a book page.\nTime to download with the bottom bar!</string>
-    <string name="help_web_fakku_account">Please use or create a legit Fakku account.\nHendroid won\'t work without.</string>
     <string name="help_web_exh_account">Please use or create an ExHentai account</string>
 
     <!-- SearchActivity -->
@@ -319,7 +299,6 @@
     <string name="search_select_a_filter">Select a filter</string>
 
     <!-- DB migration & Maintenance -->
-    <string name="maintenance">Performing maintenance</string>
 
     <!-- Image viewer -->
     <string name="no_images">Could not load the book : No image found</string>
@@ -354,11 +333,7 @@
     <string name="viewer_ask_cover">Set this page as book cover?</string>
 
     <!-- Changelog -->
-    <string name="view_changelog">View changelog</string>
-    <string name="view_changelog_flagged">View changelog*</string>
     <string name="changelog">Changelog</string>
-    <string name="get_latest">Get the latest version (%1$s)</string>
-    <string name="update_success">Update successful !</string>
     <string name="starting_download">Starting download</string>
 
     <!-- Edit drawer -->

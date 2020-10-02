@@ -2,13 +2,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="download_complete">下載完畢</string>
     <string name="download_cancelled">下載已取消</string>
-    <string name="download_skipped">下載已跳過</string>
-    <string name="download_paused">下載暫停</string>
     <string name="download_error">下載完畢，但過程中出錯</string>
     <string name="downloading">下載中</string>
     <string name="already_downloaded">已下載</string>
     <string name="already_queued">已排列</string>
-    <string name="unhandled_download_error">讀取圖片網址時出現未處理的例外</string>
     <string name="pref_screen_interface">介面及導覽</string>
     <string name="pref_cat_library">圖庫</string>
     <string name="pref_endless_scroll_title">無限滑動</string>
@@ -59,7 +56,6 @@
     <string name="pref_browser_initial_zoom_title">初始縮放大小</string>
     <string name="pref_cat_search">進階搜尋</string>
     <string name="pref_cat_browser">瀏覽器</string>
-    <string name="pref_read_content_title">圖片檢視器</string>
     <string name="pref_browser_resume_last_title">恢復到上次查看的頁面</string>
     <string name="pref_browser_resume_last_on">任何網站將會恢復到上次查看的頁面</string>
     <string name="pref_browser_resume_last_off">任何網站將會開啟至其首頁</string>
@@ -92,10 +88,8 @@
     <string name="import_other">匯入已停止</string>
     <string name="import_unexpected">匯入已意外停止</string>
     <string name="import_canceled">匯入已取消</string>
-    <string name="open_app_settings">開啟應用程式設定</string>
     <string name="refresh_options_remove_or">或</string>
     <string name="fix_permissions">修正</string>
-    <string name="open_settings">開啟設定</string>
     <string name="app_settings">應用程式設定</string>
     <string name="book_settings">圖書設定</string>
     <string name="menu_archive">封存</string>
@@ -121,8 +115,7 @@
     <string name="web_refresh_stop">重新整理/停止</string>
     <string name="web_open_browser">於瀏覽器中開啟</string>
     <string name="web_download">下載</string>
-    <string name="web_unparsable">抱歉，無法下載本書。</string>
-    <string name="category_any">任意</string>
+    <string name="web_unparsable">抱歉，無法下載此書籍。</string>
     <string name="help_web_exh_account">請使用或註冊一支 ExHentai 帳號</string>
     <string name="help_web_download">嘿，你開了本書。\n是時候用下面的工具列來把它載下來了！</string>
     <string name="help_swipe_cancel">向左滑動取消下載</string>
@@ -133,11 +126,7 @@
     <string name="redownload_all">重新下載全部</string>
     <string name="canceled">已取消</string>
     <string name="undo">復原</string>
-    <string name="pause">暫停</string>
-    <string name="resume">回復</string>
     <string name="move_top">置頂</string>
-    <string name="move_up">向上移</string>
-    <string name="move_down">向下移</string>
     <string name="move_bottom">置底</string>
     <string name="queue_paused">已暫停下載</string>
     <string name="queue_preparing">準備下載中</string>
@@ -157,11 +146,7 @@
     <string name="gallery_help">書庫</string>
     <string name="page_delete_help">刪除頁面</string>
     <string name="viewer_ask_cover">將此頁設為書籍封面？</string>
-    <string name="view_changelog">檢視更新日誌</string>
-    <string name="view_changelog_flagged">檢視更新日誌*</string>
     <string name="changelog">更新日誌</string>
-    <string name="get_latest">取得最新版本 (%1$s)</string>
-    <string name="update_success">更新成功</string>
     <string name="viewer_slideshow">幻燈片</string>
     <string name="viewer_slideshow_help">幻燈片模式</string>
     <string name="viewer_order_shuffle">隨機頁面</string>
@@ -185,7 +170,6 @@
     <string name="search_hint">標題、作者、標籤、書籍ID</string>
     <string name="send_to">與他人分享：</string>
     <string name="app_lock_pin">輸入 PIN 碼</string>
-    <string name="app_lock_pin_prefs">鎖屏 PIN 碼</string>
     <string name="app_lock_enable">已開啟鎖屏</string>
     <string name="app_lock_disabled">已關閉鎖屏</string>
     <string name="pin_reset">重設 PIN 碼</string>
@@ -194,20 +178,12 @@
     <string name="pin_new">輸入新的 PIN 碼</string>
     <string name="pin_new_confirm">再次確認 PIN 碼</string>
     <string name="about_licenses">顯示許可</string>
-    <string name="web_url_clipboard">已將網址複製至剪貼簿中</string>
-    <string name="category_tag">標籤 (%1$d)</string>
-    <string name="category_character">角色 (%1$d)</string>
-    <string name="category_artist">繪師 (%1$d)</string>
-    <string name="category_series">系列 (%1$d)</string>
-    <string name="category_language">語言 (%1$d)</string>
-    <string name="category_source">來源 (%1$d)</string>
     <string name="pref_app_preview_title">近期程式中顯示預覽畫面</string>
     <string name="pref_app_preview_summary_on">已啟用程式預覽畫面</string>
     <string name="pref_app_preview_summary_off">已關閉程式預覽畫面\n如果你需要截圖的話，再把這個功能開啟</string>
     <string name="work_series">系列：@series@</string>
     <string name="work_artist">繪師：@artist@</string>
     <string name="work_pages_queue">頁面：@pages@@missing@</string>
-    <string name="work_pages_library">%d 頁 / %.1f MB</string>
     <string name="refresh_title">重新整理圖庫</string>
     <string name="refresh_options">清理選項</string>
     <string name="refresh_location_external">外存圖庫</string>
@@ -218,11 +194,9 @@
     <string name="export_title">輸出資訊</string>
     <string name="export_favs_only">僅輸出我的最愛</string>
     <string name="pin_explanation">啟動應用鎖後，需要輸入4位數的PIN碼，以防未經授權的使用</string>
-    <string name="pref_ask_delete_all_except_favs">你確定你要刪除 %d 本書嗎？</string>
     <string name="book_artist">繪師：名稱</string>
     <string name="downloads_filter_clear">清除</string>
     <string name="pref_viewer_continuous_title">持續閱讀</string>
-    <string name="kitkat_dialog_title">選擇 Hendroid 資料夾</string>
     <string name="disabled">關閉</string>
     <string name="pin_lock_on_restore">於背景重新開啟時\n自動鎖定</string>
     <string name="pref_browser_augmented_title">增強瀏覽器</string>
@@ -255,7 +229,6 @@
     <string name="paused_no_storage">無法下載 - 低儲存空間</string>
     <string name="refresh_caption">通過重新掃描文件和資料夾，自動刷新圖庫資訊。</string>
     <string name="delete_title">刪除我的最愛以外的書籍</string>
-    <string name="book_progress">%1$d / %2$d 本書</string>
     <string name="menu_order">排列書籍</string>
     <string name="memory_free">剩餘：%.2f GB</string>
     <string name="memory_total">總共：%.2f GB</string>
@@ -342,8 +315,6 @@
     <string name="book_series">系列：名稱</string>
     <string name="drag_help">拖拉物件</string>
     <string name="book_fav_help">加入/移除至我的最愛</string>
-    <string name="search_select_a_filter">選擇過濾條件</string>
-    <string name="maintenance">維護中</string>
     <string name="viewer_direction_ltr">左至右</string>
     <string name="viewer_direction_rtl">右至左</string>
     <string name="viewer_direction_ttb">上至下</string>
@@ -354,5 +325,52 @@
     <string name="starting_import">匯入中…</string>
     <string name="importing_library">匯入書庫中</string>
     <string name="importing_please_wait">匯入中，請稍後…</string>
-    <string name="updating_please_wait">更新中，請稍後…</string>
+    <plurals name="book_progress">
+        <item quantity="other">%1$d / %2$d 本</item>
+    </plurals>
+    <plurals name="ask_cancel_multiple">
+        <item quantity="other">您確定要取消所選項目嗎？</item>
+    </plurals>
+    <plurals name="import_file_library">
+        <item quantity="other">匯入書庫 (%d 本)</item>
+    </plurals>
+    <plurals name="import_file_queue">
+        <item quantity="other">匯入下載清單 (%d 本)</item>
+    </plurals>
+    <plurals name="import_result">
+        <item quantity="other">已成功匯入 %d 本書</item>
+    </plurals>
+    <plurals name="work_pages_library">
+        <item quantity="other">%d 頁 / "%.1f MB</item>
+    </plurals>書
+    <plurals name="number_of_book_search_results">
+        <item quantity="other">%d/%d 個結果</item>
+    </plurals>
+    <plurals name="number_of_book">
+        <item quantity="other">%d 本書</item>
+    </plurals>
+    <plurals name="items_selected">
+        <item quantity="other">已選取 %d 本</item>
+    </plurals>
+    <plurals name="redownload_confirm">
+        <item quantity="other">重新下載所選書籍？</item>
+    </plurals>
+    <plurals name="ask_delete_multiple">
+        <item quantity="other">您確定要刪除所選項目嗎？</item>
+    </plurals>
+
+    <string name="notification_book_downloads">書籍下載進度</string>
+    <string name="notification_library_imports">圖庫匯入進度</string>
+    <!-- SearchActivity -->
+    <string name="category_any">任何</string>
+    <string name="category_tag">標籤 (%1$d)</string>
+    <string name="category_character">角色 (%1$d)</string>
+    <string name="category_artist">繪師 (%1$d)</string>
+    <string name="category_series">系列 (%1$d)</string>
+    <string name="category_language">語言 (%1$d)</string>
+    <string name="category_source">來源 (%1$d)</string>
+    <plurals name="search_button">
+        <item quantity="other">%s 本符合條件</item>
+    </plurals>
+    <string name="search_select_a_filter">選擇過濾條件</string>
 </resources>
