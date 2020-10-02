@@ -41,7 +41,6 @@ import io.reactivex.disposables.CompositeDisposable;
 import me.devsaki.hentoid.R;
 import me.devsaki.hentoid.activities.QueueActivity;
 import me.devsaki.hentoid.database.domains.Content;
-import me.devsaki.hentoid.enums.Site;
 import me.devsaki.hentoid.enums.StatusContent;
 import me.devsaki.hentoid.fragments.library.ErrorsDialogFragment;
 import me.devsaki.hentoid.services.ContentQueueManager;
@@ -178,7 +177,7 @@ public class ErrorsFragment extends Fragment implements ItemTouchCallback, Simpl
                         .setIcon(R.drawable.ic_warning)
                         .setCancelable(false)
                         .setTitle(R.string.app_name)
-                        .setMessage(getString(R.string.confirm_redownload_all, fastAdapter.getItemCount()))
+                        .setMessage(getResources().getQuantityString(R.plurals.confirm_redownload_all, fastAdapter.getItemCount()))
                         .setPositiveButton(R.string.yes,
                                 (dialog1, which) -> {
                                     dialog1.dismiss();

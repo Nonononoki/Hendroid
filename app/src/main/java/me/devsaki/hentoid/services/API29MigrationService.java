@@ -48,8 +48,6 @@ import timber.log.Timber;
 /**
  * Service responsible for migrating an existing library to v1.12+ requirements
  * (persist folder and image URIs to the DB)
- *
- * @see UpdateCheckService
  */
 public class API29MigrationService extends IntentService {
 

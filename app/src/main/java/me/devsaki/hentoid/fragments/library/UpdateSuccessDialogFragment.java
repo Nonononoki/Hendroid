@@ -1,27 +1,6 @@
 package me.devsaki.hentoid.fragments.library;
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.mikepenz.fastadapter.FastAdapter;
-import com.mikepenz.fastadapter.adapters.ItemAdapter;
-
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.CompositeDisposable;
-import me.devsaki.hentoid.R;
-import me.devsaki.hentoid.retrofit.GithubServer;
-import me.devsaki.hentoid.viewholders.GitHubReleaseItem;
-import timber.log.Timber;
-
-import static androidx.core.view.ViewCompat.requireViewById;
 
 /**
  * Created by Robb on 11/2018

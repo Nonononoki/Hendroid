@@ -3,10 +3,6 @@ package me.devsaki.hentoid.services;
 import android.annotation.SuppressLint;
 import android.app.IntentService;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Rect;
 import android.webkit.MimeTypeMap;
 
 import androidx.annotation.NonNull;
@@ -22,7 +18,6 @@ import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.annimon.stream.Stream;
 
-import org.apache.commons.io.output.ByteArrayOutputStream;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -41,9 +36,6 @@ import javax.annotation.Nullable;
 import io.reactivex.Single;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.Schedulers;
-//import me.devsaki.fakku.FakkuDecode;
-//import me.devsaki.fakku.PageInfo;
-//import me.devsaki.fakku.PointTranslation;
 import me.devsaki.hentoid.HentoidApp;
 import me.devsaki.hentoid.R;
 import me.devsaki.hentoid.database.CollectionDAO;
@@ -64,7 +56,6 @@ import me.devsaki.hentoid.notification.download.DownloadSuccessNotification;
 import me.devsaki.hentoid.notification.download.DownloadWarningNotification;
 import me.devsaki.hentoid.parsers.ContentParserFactory;
 import me.devsaki.hentoid.parsers.images.ImageListParser;
-import me.devsaki.hentoid.util.Consts;
 import me.devsaki.hentoid.util.ContentHelper;
 import me.devsaki.hentoid.util.FileHelper;
 import me.devsaki.hentoid.util.ImageHelper;
@@ -81,6 +72,10 @@ import me.devsaki.hentoid.util.network.NetworkHelper;
 import me.devsaki.hentoid.util.notification.NotificationManager;
 import me.devsaki.hentoid.util.notification.ServiceNotificationManager;
 import timber.log.Timber;
+
+//import me.devsaki.fakku.FakkuDecode;
+//import me.devsaki.fakku.PageInfo;
+//import me.devsaki.fakku.PointTranslation;
 
 
 /**

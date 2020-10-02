@@ -18,8 +18,6 @@ import me.devsaki.hentoid.database.ObjectBoxDAO
 import me.devsaki.hentoid.enums.Theme
 import me.devsaki.hentoid.services.ExternalImportService
 import me.devsaki.hentoid.services.ImportService
-import me.devsaki.hentoid.services.UpdateCheckService
-import me.devsaki.hentoid.services.UpdateDownloadService
 import me.devsaki.hentoid.util.*
 
 
@@ -186,7 +184,7 @@ class PreferenceFragment : PreferenceFragmentCompat(),
                     .setIcon(R.drawable.ic_warning)
                     .setCancelable(false)
                     .setTitle(R.string.app_name)
-                    .setMessage(getString(R.string.pref_ask_delete_all_except_favs, list.size))
+                    .setMessage(resources.getQuantityString(R.plurals.pref_ask_delete_all_except_favs, list.size))
                     .setPositiveButton(R.string.yes
                     ) { dialog1: DialogInterface, _: Int ->
                         dialog1.dismiss()

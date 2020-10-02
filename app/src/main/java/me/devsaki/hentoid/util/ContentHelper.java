@@ -1,32 +1,24 @@
 package me.devsaki.hentoid.util;
 
-import android.content.ActivityNotFoundException;
 import android.content.ContentProviderClient;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.webkit.MimeTypeMap;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.documentfile.provider.DocumentFile;
 
 import com.annimon.stream.Stream;
-//import com.crashlytics.android.Crashlytics;
 
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.threeten.bp.Instant;
 
-import java.io.File;
 import java.io.IOException;
 import java.security.InvalidParameterException;
-import java.text.Collator;
-import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -39,7 +31,6 @@ import me.devsaki.hentoid.activities.UnlockActivity;
 import me.devsaki.hentoid.activities.bundles.BaseWebActivityBundle;
 import me.devsaki.hentoid.activities.bundles.ImageViewerActivityBundle;
 import me.devsaki.hentoid.database.CollectionDAO;
-import me.devsaki.hentoid.database.ObjectBoxDAO;
 import me.devsaki.hentoid.database.domains.Content;
 import me.devsaki.hentoid.database.domains.ImageFile;
 import me.devsaki.hentoid.database.domains.QueueRecord;
@@ -52,6 +43,8 @@ import me.devsaki.hentoid.util.exception.FileNotRemovedException;
 import timber.log.Timber;
 
 import static com.annimon.stream.Collectors.toList;
+
+//import com.crashlytics.android.Crashlytics;
 
 /**
  * Utility class for Content-related operations

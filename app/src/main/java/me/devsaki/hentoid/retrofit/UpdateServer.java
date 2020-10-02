@@ -1,13 +1,5 @@
 package me.devsaki.hentoid.retrofit;
 
-import io.reactivex.Single;
-import me.devsaki.hentoid.BuildConfig;
-import me.devsaki.hentoid.json.UpdateInfo;
-import retrofit2.Retrofit;
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-import retrofit2.converter.moshi.MoshiConverterFactory;
-import retrofit2.http.GET;
-
 public class UpdateServer {
 
     /*

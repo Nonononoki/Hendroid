@@ -1,7 +1,5 @@
 package me.devsaki.hentoid.util;
 
-import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -9,8 +7,6 @@ import android.content.Intent;
 import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.net.Uri;
-import android.os.Build;
-import android.os.storage.StorageManager;
 import android.provider.DocumentsContract;
 
 import androidx.annotation.NonNull;
@@ -21,9 +17,7 @@ import androidx.documentfile.provider.DocumentFile;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

@@ -58,8 +58,6 @@ import timber.log.Timber;
 
 /**
  * Service responsible for importing an existing Hentoid library.
- *
- * @see UpdateCheckService
  */
 public class ImportService extends IntentService {
 

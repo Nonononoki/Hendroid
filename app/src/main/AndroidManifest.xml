@@ -392,10 +392,6 @@
             android:enabled="true"
             android:exported="false" />
 
-        <service android:name=".services.UpdateCheckService" />
-
-        <service android:name=".services.UpdateDownloadService" />
-
         <service android:name=".services.ImportService" />
 
         <service android:name=".services.ExternalImportService" />
