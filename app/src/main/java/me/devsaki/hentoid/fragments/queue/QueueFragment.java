@@ -95,7 +95,7 @@ public class QueueFragment extends Fragment implements ItemTouchCallback, Simple
     private final CompositeDisposable compositeDisposable = new CompositeDisposable();
 
     // COMMUNICATION
-    // Viewmodel
+    // ViewModel
     private QueueViewModel viewModel;
 
     // UI ELEMENTS
