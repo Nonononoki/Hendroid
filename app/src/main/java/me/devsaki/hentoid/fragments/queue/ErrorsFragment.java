@@ -426,21 +426,14 @@ public class ErrorsFragment extends Fragment implements ItemTouchCallback, Simpl
     private void askRedownloadSelectedScratch() {
         Set<ContentItem> selectedItems = selectExtension.getSelectedItems();
 
-        int securedContent = 0;
         List<Content> contents = new ArrayList<>();
         for (ContentItem ci : selectedItems) {
             Content c = ci.getContent();
             if (null == c) continue;
-            //if (c.getSite().equals(Site.FAKKU2) || c.getSite().equals(Site.EXHENTAI)) {
-            //    securedContent++;
-            //} else {
-                contents.add(c);
-            //}
+            contents.add(c);
         }
 
         String message = getResources().getQuantityString(R.plurals.redownload_confirm, contents.size());
-        if (securedContent > 0)
-            message = getResources().getQuantityString(R.plurals.redownload_secured_content, securedContent);
 
         // TODO make it work for secured sites (Fakku, ExHentai) -> open a browser to fetch the relevant cookies ?
 
